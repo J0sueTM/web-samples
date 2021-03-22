@@ -1,0 +1,52 @@
+@import url("index.css");
+
+header #header-img
+{
+  height: 100%;
+
+  background-image: url("https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header #header-title
+{
+  width: 80%;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+
+  background-color: rgba(0,0,0, 0.4);
+
+  color: #FFFFFF;
+  border: 3px solid #F1F1F1;
+}
+
+header #header-title h1
+{
+  padding-bottom: 5px;
+  font-family: "Pacifico", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+header #header-title a p
+{
+  font-family: "Heebo", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+
+  color: var(--text-colour-fst);
+}
+
