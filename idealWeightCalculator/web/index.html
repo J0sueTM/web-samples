@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8"/>
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+		<title>Ideal Weight Calculator</title>
+
+		<link rel = "stylesheet" href = "./web/style/index.css"/>
+		<link rel = "stylesheet" href = "./web/style/page-landing.css"/>
+		<link rel = "stylesheet" href = "./web/style/header.css"/>
+		<link rel = "stylesheet" href = "./web/style/calculator-form.css"/>
+		<link rel = "stylesheet" href = "./web/style/footer.css"/>
+	</head>
+	<body>
+		<div id = "page-landing">
+			<header>
+				<h1>Ideal Weight Calculator</h1>
+				<p>Enter the required data in the following entry boxes and let us do the rest</p>
+			</header>
+			<div id = "calculator_form">
+				<form action = "calculateIdealWeight" method = "post">
+					<label>Name</label>
+					<input type = "text" name = "user_name"/>
+					<label>Height (cm)</label>
+					<input type = "number" min = "0" step = "1" name = "user_height"/>
+					<label>Gender</label>
+					<select id = "gender_select" name = "user_gender">
+						<option selected disable value = "gender_none">Gender</option>
+						<option value = "gender_male">Male</option>
+						<option value = "gender_female">Female</option>
+						<input id = "gender_send" value = "Calculate" type = "submit"/>
+					</select>
+				</form>
+			</div>
+			<footer>
+				<p>Copyright © 2021, Josué Teodoro Moreira</p>
+			</footer>
+		</div>
+	</body>
+</html>

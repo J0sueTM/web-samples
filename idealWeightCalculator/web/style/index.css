@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;600;700&display=swap');
+
+:root
+{
+  --light-background-colour: #DDDDDD;
+  --dark-background-colour: #3B3A3E;
+
+  --main-auxiliary-colour: #C13C2F;
+}
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+
+  background-color: var(--light-background-colour);
+}

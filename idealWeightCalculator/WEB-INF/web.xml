@@ -1,0 +1,17 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+	<servlet>
+		<servlet-name>calculateIdealWeight</servlet-name>
+		<servlet-class>idealWeightCalculatorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>calculateIdealWeight</servlet-name>
+		<url-pattern>/calculateIdealWeight</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>/web/index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

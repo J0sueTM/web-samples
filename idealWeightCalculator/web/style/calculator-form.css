@@ -1,0 +1,66 @@
+@import url("./index.css");
+
+#page-landing #calculator_form
+{
+  width: 95%;
+  height: 65%;
+}
+
+#page-landing #calculator_form form
+{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+#page-landing #calculator_form form label
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#page-landing #calculator_form form input, select
+{
+  width: 90%;
+
+  padding: 10px;
+  display: block;
+  border: none;
+  border-bottom: 5px solid var(--light-background-colour);
+}
+
+#page-landing #calculator_form form #gender_send
+{
+  padding-top: 1.3rem;
+  transition: 0.8s;
+}
+
+#page-landing #calculator_form form #gender_send
+{
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 600px)
+{
+  #page-landing #calculator_form 
+  {
+    width: 60%;
+    height: 98%;
+  }
+
+  #page-landing #calculator_form form
+  {
+    justify-content: center;
+  }
+
+  #page-landing #calculator_form form label
+  {
+    padding-top: 2.4rem;
+    padding-bottom: 1rem;
+  }
+}

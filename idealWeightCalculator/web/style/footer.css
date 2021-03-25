@@ -1,0 +1,24 @@
+@import url("./index.css");
+
+#page-landing footer
+{
+  width: 100%;
+  position: absolute;
+  top: 95%;
+
+  text-align: center;
+}
+
+#page-landing footer p
+{
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px)
+{
+  #page-landing footer
+  {
+		right: 3%;
+    text-align: right;
+  }
+}
